@@ -1,0 +1,56 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+ 
+.img-logo {
+width: 80px;
+height: 80px;
+padding: 8px;
+}
+
+.col-2 {
+width: 6%;    
+}
+
+#nav-desktop ul {
+list-style: none;
+display: flex;   
+flex-direction: row;
+flex-wrap: wrap;
+column-gap: 5px;
+padding: 20px;
+width: 70%;
+float: left;
+}
+    
+#nav-desktop ul li {
+font-weight: bold;
+margin-left: 10px;
+
+}
+
+#nav-desktop ul li a {
+color: black;
+font-weight: 900%;
+text-decoration: none;
+font-size: 18px;
+}
+
+
+#carrinho-loja {
+float: right;
+padding: 10px;
+}
+    
+#btnBusca {
+float: right;    
+padding: 0px;
+width: 60px;
+}
+
+#txtBusca {
+float: right;    
+}
+
+
+
