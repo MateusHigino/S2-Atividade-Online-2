@@ -37,20 +37,12 @@ font-size: 18px;
 }
 
 
-#carrinho-loja {
-float: right;
-padding: 10px;
-}
-    
-#btnBusca {
-float: right;    
-padding: 0px;
-width: 60px;
-}
-
 #txtBusca {
-float: right;    
+float: right;
+margin: 20px;    
 }
 
+#banner {
+width: 100%;
 
-
+}
