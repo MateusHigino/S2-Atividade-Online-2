@@ -1,15 +1,19 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+
+  body {
+    background: rgb(255, 255, 255);
+  }
  
 .img-logo {
 width: 80px;
 height: 80px;
-padding: 8px;
+padding: 10px;
 }
 
 .col-2 {
-width: 6%;    
+width: 5%;    
 }
 
 #nav-desktop ul {
@@ -19,14 +23,13 @@ flex-direction: row;
 flex-wrap: wrap;
 column-gap: 5px;
 padding: 20px;
-width: 70%;
+width: 50%;
 float: left;
 }
     
 #nav-desktop ul li {
 font-weight: bold;
 margin-left: 10px;
-
 }
 
 #nav-desktop ul li a {
@@ -34,15 +37,81 @@ color: black;
 font-weight: 900%;
 text-decoration: none;
 font-size: 18px;
-}
-
-
-#txtBusca {
-float: right;
-margin: 20px;    
+width: 20px;
+font-size: 14px;
 }
 
 #banner {
-width: 100%;
-
+display: inline-block;
+position: relative;
+top: -15px;
 }
+
+#banner img {
+width: 100%;
+padding: 10px;
+}
+
+#banner h2 {
+  position: absolute;
+  left: 150px;
+  top: 180px;
+  color: #f5f5f5;
+  font-weight: bold;  
+}
+
+#banner p {
+  position: absolute;
+  width: 50%;
+  left: 150px;
+  top: 250px;
+  font-size: 20px;
+  color: #f5f5f5;
+  font-weight: 150;
+}
+
+#destaques div {
+  padding: 10px;
+}
+
+#destaques h2{
+position: absolute;
+width: 100%;
+text-align: center;
+font-size: 25px;
+color: black;
+font-weight: bold;
+margin-top: -24px;
+}
+
+.destaque-vendas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 80px;
+  justify-content: center; 
+}
+
+.texto-centralizado {
+  text-align: center;
+}
+
+.senai-card {
+  width: 250px;
+  border: 2px solid silver;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background: solid rgb(201, 195, 195);
+}
+.senai-card img {
+  width: 100%;
+  border-radius: 4px 4px 0px 0px;
+}
+.senai-card div {
+  padding: 10px;
+}
+
+#midias-sociais img {
+  width: 10%;
+}
+
