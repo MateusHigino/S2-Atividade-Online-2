@@ -89,7 +89,7 @@ margin-top: -24px;
   flex-direction: row;
   flex-wrap: wrap;
   column-gap: 80px;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .texto-centralizado {
@@ -100,7 +100,7 @@ margin-top: -24px;
   width: 250px;
   border: 2px solid silver;
   border-radius: 5px;
-  margin-bottom: 10px;
+  margin-top: 18px;
   background: solid rgb(201, 195, 195);
 }
 .senai-card img {
@@ -110,6 +110,29 @@ margin-top: -24px;
 .senai-card div {
   padding: 10px;
 }
+
+#banner3 img {
+  width: 91%;
+  height: 450px;
+  left: 150px;
+  margin-left: 60px;
+  margin-top: 30px;
+}
+
+#mais-vendidos {
+ margin-top: 40px;
+ margin: 10px;
+}
+
+#mais-vendidos h2 {
+text-align: center;
+font-size: 25px;
+color: rgb(52, 13, 158);
+font-weight: bold;
+margin-bottom: 15px;
+}
+
+
 
 #midias-sociais img {
   width: 10%;
