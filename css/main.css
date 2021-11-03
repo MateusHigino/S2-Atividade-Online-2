@@ -3,7 +3,7 @@
   }
 
   body {
-    background: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
   }
  
 .img-logo {
@@ -33,7 +33,7 @@ margin-left: 10px;
 }
 
 #nav-desktop ul li a {
-color: black;
+color: rgb(255, 255, 255);
 font-weight: 900%;
 text-decoration: none;
 font-size: 18px;
@@ -79,7 +79,7 @@ position: absolute;
 width: 100%;
 text-align: center;
 font-size: 30px;
-color: rgb(17, 52, 207);
+color: rgb(255, 255, 255);
 font-weight: bold;
 margin-top: -15px;
 }
@@ -96,7 +96,7 @@ margin-top: -15px;
   font-family: Arial;
   text-align: center;
   font-size: 25px;
-  color: black;
+  color: rgb(255, 255, 255);
   font-weight: bold;
 }
 
@@ -124,7 +124,8 @@ margin-top: -15px;
 }
 .carousel-inner {
   width: 100%;
- border-radius: 10px
+  border-radius: 10px;
+  border: 2px solid rgb(255, 255, 255);
 }
 
 
@@ -137,7 +138,7 @@ margin-top: -15px;
   font-family: Arial;
 text-align: center;
 font-size: 30px;
-color: rgb(17, 52, 207);
+color: rgb(255, 255, 255);
 font-weight: 900;
 margin-bottom: 15px;
 }
@@ -153,6 +154,8 @@ margin-bottom: 15px;
   font-weight: bold;
   margin-bottom: 50px;
   margin-top: 40px;
+  color:#f5f5f5;
+  text-decoration: underline;
 }
 
 .Novidades {
@@ -164,50 +167,78 @@ margin-bottom: 15px;
 }
 
 .fifa-22 {
-  margin-bottom: 90px;
-  margin-bottom: 80px;
-  border: 2px solid silver;
+  margin-bottom: 100px;
+  border: 2px solid rgb(179, 177, 177);
   border-radius: 5px;
 }
 
 .Battlefield-2042 {
   margin-top: 8px;
   margin-bottom: 80px;
-  border: 2px solid silver;
+  border: 2px solid rgb(148, 146, 146);
   border-radius: 5px;
 }
 
-.Call-of-duty {
-  margin-bottom: 90px;
-  margin-bottom: 80px;
-  border: 2px solid silver;
+.Sekiro {
+  margin-bottom: 10%;
+  border: 2px solid rgb(148, 146, 146);
   border-radius: 5px;
 }
 
-
-.Cyberpunk div {
-  margin-top: 10px;
-  margin-bottom: 80px;
-  border: 2px solid silver;
+.Cyberpunk {
+  margin-top: 5px;
+  margin-bottom: 130px;
+  border: 2px solid rgb(148, 146, 146);
   border-radius: 5px;
 }
 
-.Hades {
-  margin-bottom: 80px;
-  border: 2px solid silver;
+.NBA-2K22 {
+  margin-bottom: 100px;
+  border: 2px solid rgb(148, 146, 146);
   border-radius: 5px; 
 }
 
-#midias-sociais img {
-  width: 10%;
+.Hades {
+  margin-bottom: 100px;
+  border: 2px solid rgb(148, 146, 146);
+  border-radius: 5px; 
 }
 
 #banner2 {
   margin-left: 8px;
-  width: 100%;
+  width: 95%;  
 }
 
 #banner2 img {
 height: 370px;
 padding: 5px;
 }
+
+#Lançamentos h1 {
+  font-family: Verdana;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.Video {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 380px;
+  justify-content: center;  
+}
+
+#midias-sociais {
+  flex-direction: row;
+  text-align: center;
+}
+
+.midias-sociais img {
+  width: 9%;
+  border-radius: 10px;
+  box-shadow: 0 14px 20px 0 rgba(17, 0, 255, 0.2), 0 10px 20px 0 rgba(0, 17, 255, 0.19);
+  column-gap: -20px
+}
+
