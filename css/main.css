@@ -10,6 +10,28 @@
     margin: 10px;
     width: 98%;
     }
+
+#menu-slide {
+position: absolute;
+z-index: 10;
+top : 95px;
+      left: -200px;
+      border: 1px solid silver;
+      border-radius: 5px;
+      background-color: azure;
+      width: 200px;
+      height: 400px;
+      transition: 0.5s ease-in;
+    }
+    #menu-slide.show{
+      left: 0px;
+    }  
+    
+    #menu-mobile {
+      display: block;
+      float: right;
+      margin-top: 20px;
+    }
  
 .img-logo {
 width: 50px;
@@ -322,3 +344,13 @@ footer {
 #menu-rodape {
   grid-area: menu-rodape;
 } 
+
+@media screen and (max-width: 720px) and (max-device-width: 1280px) {
+
+}
+
+@media screen and (min-width: 1920px) {
+
+
+}
+
